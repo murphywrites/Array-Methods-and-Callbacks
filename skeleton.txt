@@ -1,0 +1,25 @@
+// Skeleton Functions 
+
+//.forEach()
+
+array.forEach(function(item){
+  // do something here - you can console.log or return
+});
+
+// .map()
+const newArray = array.map(function(item){
+  return // what we want inside of the new array 
+  // the return statement is pushing something to the new array 
+});
+
+//.filter()
+const newArray = array.filter(function(item){
+  // we return something that can be either true or false, if it's true it gets included in the new array, if its false - it's excluded. 
+  return // true or false; 
+});
+
+// .reduce()
+
+const singleValue = array.reduce(function(accumulator, item){
+  return accumulator + item; 
+},initalValue);
